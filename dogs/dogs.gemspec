@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 5.2.0.rc1"
 
-  s.add_development_dependency "mysql2"
+  s.add_dependency "mysql2"
 end
