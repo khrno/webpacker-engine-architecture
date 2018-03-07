@@ -1,4 +1,4 @@
-// Run this example by adding <%= javascript_pack_tag 'hello_react_dogs' %> to the head of your layout file,
+// Run this example by adding <%= javascript_pack_tag 'hello_react_cats' %> to the head of your layout file,
 // like app/views/layouts/application.html.erb. All it does is render <div>Hello React</div> at the bottom
 // of the page.
 
@@ -6,21 +6,21 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 
-const HelloDogs = props => (
-  <div>Hello from Dogs Engine {props.name}!</div>
+const HelloCats = props => (
+    <div>Hello from Cats Engine {props.name}!</div>
 );
 
-HelloDogs.defaultProps = {
+HelloCats.defaultProps = {
   name: 'David'
 };
 
-HelloDogs.propTypes = {
+HelloCats.propTypes = {
   name: PropTypes.string
 };
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <HelloDogs name="React" />,
-      document.getElementById('dogs-component')
+      <HelloCats name="React" />,
+      document.getElementById('cats-component')
   )
 });

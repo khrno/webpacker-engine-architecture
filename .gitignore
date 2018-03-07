@@ -37,3 +37,4 @@ cats/Gemfile.lock
 cats/node_modules
 
 .idea
+Gemfile.lock
