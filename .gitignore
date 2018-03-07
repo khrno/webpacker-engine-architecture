@@ -35,3 +35,5 @@ cats/test/dummy/storage/
 cats/test/dummy/tmp/
 cats/Gemfile.lock
 cats/node_modules
+
+.idea
