@@ -1,7 +1,7 @@
-$:.push File.expand_path("lib", __dir__)
+$:.push File.expand_path("../lib", __dir__)
 
 # Maintain your gem's version:
-require "../lib/pets/version"
+require_relative '../lib/pets/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
@@ -15,4 +15,8 @@ Gem::Specification.new do |s|
   s.license     = "Nonstandard"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+
+  s.add_dependency "rails", "~> 5.2.0.rc1"
+
+  s.add_development_dependency "mysql2"
 end
