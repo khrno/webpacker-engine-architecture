@@ -12,11 +12,11 @@ Gem::Specification.new do |s|
   s.homepage    = "http://petsengine.modyo.com"
   s.summary     = "Summary of Pets."
   s.description = "Description of Pets."
-  s.license     = "MIT"
+  s.license     = "Nonstandard"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.2.0.rc1"
+  s.add_dependency 'dogs', s.version
+  s.add_dependency 'cats', s.version
 
-  s.add_development_dependency "sqlite3"
 end
