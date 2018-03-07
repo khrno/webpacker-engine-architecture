@@ -19,6 +19,7 @@ dogs/test/dummy/node_modules/
 dogs/test/dummy/yarn-error.log
 dogs/test/dummy/storage/
 dogs/test/dummy/tmp/
+dogs/Gemfile.lock
 
 
 cats/.bundle/
@@ -31,3 +32,4 @@ cats/test/dummy/node_modules/
 cats/test/dummy/yarn-error.log
 cats/test/dummy/storage/
 cats/test/dummy/tmp/
+cats/Gemfile.lock
