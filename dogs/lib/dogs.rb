@@ -1,5 +1,8 @@
+require 'mysql2'
 require "dogs/engine"
 
 module Dogs
-  # Your code goes here...
+  def self.table_name_prefix
+    'dogs_engine_'
+  end
 end

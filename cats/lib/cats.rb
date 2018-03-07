@@ -1,5 +1,8 @@
+require 'mysql2'
 require "cats/engine"
 
 module Cats
-  # Your code goes here...
+  def self.table_name_prefix
+    'cats_engine_'
+  end
 end
