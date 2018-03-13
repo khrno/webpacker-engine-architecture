@@ -1,6 +1,6 @@
 require 'mysql2'
 require 'webpacker'
-require 'react_on_rails'
+require 'puma'
 require "dogs/engine"
 
 module Dogs

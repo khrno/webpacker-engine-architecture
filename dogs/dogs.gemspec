@@ -17,8 +17,9 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 5.2.0.rc1"
-  
+
   s.add_dependency "mysql2"
   s.add_dependency 'webpacker', '~> 3.3.0'
-  s.add_dependency 'react_on_rails', '~> 10.0.2'
+  s.add_dependency "puma"
+
 end
