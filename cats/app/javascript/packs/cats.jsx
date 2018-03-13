@@ -1,3 +1,7 @@
-console.log('cats engine entry point');
+import MyCats from '../components/MyCats';
 
-import './hello_react_cats';
+((w) => {
+  w.MyCats = MyCats;
+})(window);
+
+console.log('cats engine entry point');

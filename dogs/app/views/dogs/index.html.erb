@@ -1,5 +1,9 @@
 <h1>Dogs#index</h1>
 <p>Find me in app/views/dogs/index.html.erb</p>
 
-<div id="dogs-component"></div>
-<%= javascript_pack_tag 'dogs' %>
+<div id="mydogs-component"></div>
+<script>
+  (function(){
+    ReactDOM.render(React.createElement(MyDogs, {name: "Pablo"}), document.getElementById('mydogs-component'))
+  }());
+</script>

@@ -1,3 +1,7 @@
-console.log('dogs engine entry point');
+import MyDogs from '../components/MyDogs';
 
-import './hello_react_dogs';
+((w) => {
+  w.MyDogs = MyDogs;
+})(window);
+
+console.log('dogs engine entry point');
