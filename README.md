@@ -1,11 +1,8 @@
 # Pets
 Short description and motivation.
 
-## Usage
-How to use my plugin.
-
 ## Installation
-Add this line to your application's Gemfile:
+1. Add this line to your application's Gemfile:
 
 ```ruby
 gem 'pets'
@@ -16,13 +13,5 @@ And then execute:
 $ bundle
 ```
 
-Or install it yourself as:
-```bash
-$ gem install pets
-```
-
-## Contributing
-Contribution directions go here.
-
-## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+## TODO
+1. Add generator to install package.json into the client app
