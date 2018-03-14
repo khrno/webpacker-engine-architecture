@@ -1,11 +1,11 @@
 module Pets
-  MAJOR = 0
-  MINOR = 1
+  MAJOR = 1
+  MINOR = 0
   TINY  = 0
 
   # These constants, +PRE+ & +BUILD+, are handled by TeamCity so
   # DON'T TOUCH THEM.
-  PRE   = nil
+  PRE   = 'rc'
   BUILD = 0
 
   if PRE
