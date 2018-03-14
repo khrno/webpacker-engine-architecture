@@ -67,3 +67,6 @@ production:
 
   # Cache manifest.json for performance
   cache_manifest: true
+
+  # Write the compiled pack in the metagem
+  public_output_path: '../../lib/asssets'
