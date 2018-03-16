@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 5.2.0.rc1"
 
   s.add_dependency "mysql2"
-  s.add_dependency 'webpacker', '~> 3.3.0'
+  s.add_dependency 'webpacker'
   s.add_dependency "puma"
 
 end
